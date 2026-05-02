@@ -1,0 +1,102 @@
+ /* ---- Declare charset ---- */
+ @charset "utf-8";
+
+/* ---- Clear all default settings ---- */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ---- General settings ---- */
+html {
+  scroll-behavior: smooth;
+  font-size: 18px; /* Used for links, lists, and paragraphs */
+}
+
+body {
+  background-color: rgb(56, 56, 54);
+  color: rgb(245, 245, 245);
+  font-family: 'Courier New', Courier, monospace;
+
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 60px 0;
+}
+
+section {
+  line-height: 25px; /* Space things naturally */
+}
+
+hr {
+  margin: 30px 0px;
+}
+
+/* ---- Text-specific ---- */
+h1 { /* Name */
+  font-size: 32px;
+  padding-bottom: 15px;
+}
+
+h2 { /* Sections */
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+
+h3 { /* Subsections */
+  font-size: 24px;
+  font-weight: normal;
+
+  padding-bottom: 10px;
+}
+
+h4 { /* Subs-subections */
+  font-size: 22px; /* 20px when h3 is enabled */
+  font-weight: normal;
+
+  padding-bottom: 10px;
+  padding-inline-start: 20px; /* Push headings to the right */
+}
+
+h5 { /* Description */
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
+
+.following-h2 h2 {
+  padding-top: 45px; 
+}
+
+.following-h3 h3 {
+  padding-top: 15px;
+}
+
+.following-h4 h4 {
+  padding-top: 15px;
+}
+
+a {
+  color: rgb(219, 184, 203);
+}
+
+a:hover {
+  color: rgb(209, 139, 179);
+  transition: 0.4s;
+}
+
+.emph {
+  color: rgb(209, 139, 179);
+}
+
+ul {
+  padding-inline-start: 40px; /* Push bullets to the right */
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    padding: 2em 1em !important;
+  }
+}
