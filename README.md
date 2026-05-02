@@ -1,6 +1,6 @@
 # Website
 
-My (tracking-free!) personal website can be found [here](https://sc-chen.codeberg.page/website/).
+My (tracking-free!) personal website can be found [here](https://sophiecchen.github.io/website/).
 
 ## Acknowledgements
 
