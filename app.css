@@ -52,7 +52,7 @@ h3 { /* Subsections */
   padding-bottom: 10px;
 }
 
-h4 { /* Subs-subections */
+h3 { /* Subs-subections */
   font-size: 22px; /* 20px when h3 is enabled */
   font-weight: normal;
 
@@ -74,7 +74,7 @@ h5 { /* Description */
   padding-top: 15px;
 }
 
-.following-h4 h4 {
+.following-h3 h3 {
   padding-top: 15px;
 }
 
