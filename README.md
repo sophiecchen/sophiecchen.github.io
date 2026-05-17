@@ -4,4 +4,4 @@ My (tracking-free!) personal website can be found [here](https://sophiecchen.git
 
 ## Acknowledgements
 
-Styling taken from tajack's [Lightspeed Jekyll theme](https://github.com/tajacks/lightspeed).
+This styling was taken (or at least heavily inspired by) from tajack's [Lightspeed Jekyll theme](https://github.com/tajacks/lightspeed).
